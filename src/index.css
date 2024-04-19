@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light {
+    --main-background: 0, 0%, 98%;
+    --todo-item-background: 0, 0%, 100%;
+    --todo-item-border: 233, 11%, 84%;
+    --todo-item-completed: 233, 11%, 84%;
+    --todo-item-decoration: 236, 9%, 61%;
+    --todo-item-text: 235, 19%, 35%;
+    --todo-check-outline: 236, 33%, 92%;
+    --todo-remove-hover: 233, 11%, 84%;
+}
+
+.dark {
+    --main-background: 235, 21%, 11%;
+    --todo-item-background: 235, 24%, 19%;
+    --todo-item-border: 237, 14%, 26%;
+    --todo-item-completed: 233, 14%, 35%;
+    --todo-item-decoration: 237, 14%, 26%;
+    --todo-item-text: 234, 39%, 85%;
+    --todo-check-outline: 233, 14%, 35%;
+    --todo-remove-hover: 233, 11%, 84%;
+}
+
+@layer base {
+    input[type="checkbox"]:checked {
+        background: url("/icon-check.svg"), linear-gradient(to bottom right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+        background-repeat: no-repeat;
+        background-size: 100% / 10px;
+        background-position: center;
+    }
+}
