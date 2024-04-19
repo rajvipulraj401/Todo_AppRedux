@@ -8,7 +8,7 @@ Todo App is a simple web application built using React and Redux. It helps users
 
 ## Live Demo
 
-To see Todo App in action, visit [Todo App Demo](#https://todoappreduxproj.netlify.app/).
+To see Todo App in action, visit [Todo App Demo](https://todoappreduxproj.netlify.app/).
 
 ## Features
 
