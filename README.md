@@ -6,6 +6,14 @@ Welcome to Todo App!
 
 Todo App is a simple web application built using React and Redux. It helps users keep track of their tasks by allowing them to create, delete, and manage todo items. The application provides features such as showing completed and active tasks, marking tasks as completed, clearing completed tasks, and toggling between light and dark themes. Todo App utilizes Tailwind CSS for design and Redux for state management.
 
+
+## Demo Pictures
+
+![Full Todo App 1](p1.png)
+![Complete Task 2](p2.png)
+![Active Task 3](p3.png)
+
+
 ## Live Demo
 
 To see Todo App in action, visit [Todo App Demo](https://todoappreduxproj.netlify.app/).
